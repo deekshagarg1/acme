@@ -1,0 +1,51 @@
+.payment-main{
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #ffffff;
+      float: right;
+width: 72%;
+/* width: 1200px; */
+margin-top: 70px;
+height: auto;
+/* border: 1px solid red; */
+}
+
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 200px 20px auto;
+      row-gap: 15px;
+      max-width: 600px;
+    }
+
+    .form-grid div {
+      font-size: 16px;
+    }
+
+    .form-grid .bold {
+      font-weight: bold;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: 50px;
+    }
+
+    .buttons button {
+      padding: 10px 30px;
+      border: none;
+      border-radius: 15px;
+      background-color: #ddd;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #000;
+    }

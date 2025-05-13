@@ -1,0 +1,66 @@
+.weight-main{
+    float: right;
+width: 78%;
+/* width: 1200px; */
+margin-top: 70px;
+height: auto;
+  font-family: sans-serif;
+  /* margin: 20px; */
+  background-color: #f4f4f4;
+
+}
+
+
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.daily-readings {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.reading-card {
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  flex: 1;
+}
+
+.reading-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.reading-value {
+  font-size: 1.2em;
+}
+
+.health-statistics {
+  margin-top: 60px;
+}
+
+.statistics-title {
+  font-weight: bold;
+    margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.statistics-data {
+  list-style: none;
+  padding: 0;
+}
+
+.statistics-data li {
+  margin-bottom: 5px;
+}

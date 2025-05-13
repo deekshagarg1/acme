@@ -1,0 +1,76 @@
+.dash-main{
+   
+float: right;
+width: 78%;
+/* width: 1200px; */
+margin-top: 70px;
+height: auto;
+/* border: 1px solid red; */
+  font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      /* padding: 20px; */
+}
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      width: 150px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .purple { background-color: #dcdafe; color: #3c3cb7; }
+    .red    { background-color: #ffd4d4; color: #d10000; }
+    .green  { background-color: #d6ffd6; color: #009900; }
+    .blue   { background-color: #d6e0ff; color: #0033cc; }
+
+    .card h3 {
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .chart {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .fake-chart {
+      height: 200px;
+      /* background: linear-gradient(to right, #ddd 12.5%, #aaa 12.5%, #aaa 25%, #ddd 25%, #ddd 37.5%, #aaa 37.5%, #aaa 50%, #ddd 50%, #ddd 62.5%, #aaa 62.5%, #aaa 75%, #ddd 75%, #ddd 87.5%, #aaa 87.5%, #aaa 100%); */
+      background-size: 12.5% 100%;
+      border-left: 2px solid #333;
+      border-bottom: 2px solid #333;
+      position: relative;
+    }
+
+    .fake-chart::before {
+      /* content: "JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC"; */
+      position: absolute;
+      bottom: -20px;
+      left: 10px;
+      font-size: 12px;
+      color: #333;
+      letter-spacing: 8px;
+    }

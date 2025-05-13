@@ -1,0 +1,66 @@
+   .ship-main {
+      font-family: Arial, sans-serif;
+      /* padding: 30px; */
+      background-color: #f5faff;
+      /* position: fixed; */
+float: right;
+width: 78%;
+/* width: 1200px; */
+margin-top: 70px;
+height: auto;
+/* border: 1px solid red; */
+overflow-x: hidden;
+    }
+
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .info-container {
+      display: flex;
+      gap: 70px;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #ddd;
+      padding: 20px;
+      border-radius: 15px;
+      width: 350px;
+      margin-bottom: 40px;
+      margin: 20px;
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      margin: 6px 0;
+    }
+
+
+
+    table {
+      width: 90%;
+      border-collapse: collapse;
+      margin: 30px;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      border-bottom: 1px solid #555;
+    }
+
+    tr:nth-child(even) {
+      background-color: #b2d8cc;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #d6f0ea;
+    }
