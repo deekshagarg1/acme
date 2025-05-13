@@ -41,13 +41,13 @@ export const Nav = () => {
                 <p> • Patients list</p>
               </Link>
               <Link to="/payment">
-                <p> • Payment </p>
+                <p> • Final Shipment </p>
               </Link>
             </div>
           </div>
 
           <div className="content">
-            <div className="opd">consutant</div>
+            <div className="opd">consultant</div>
             <div className="content1">
               <Link to="/">
                 <p> • Home Page</p>

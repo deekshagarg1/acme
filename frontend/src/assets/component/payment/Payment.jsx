@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './payment.css'
 export const Payment = ({detail}) => {
+
+  const[sent1 , setsent1]=useState([])
+
+  const sent =()=>{
+setsent1(detail)
+console.log(sent1)
+alert("your draft is sent")
+  }
+
   return (
     <div className='payment-main'>
 
@@ -33,12 +42,10 @@ export const Payment = ({detail}) => {
     <div>Date of Birth</div><div>:</div><div>{item.birthdate}</div>
     <div>Phone</div><div>:</div><div>{item.phone}</div>
     <div>Department</div><div>:</div><div class="highlight">{item.department}</div>
-    <div>Date and Time</div><div>:</div><div>{item.date} – [2:00]</div>
+    <div>Date and Time</div><div>:</div><div>{item.date}</div>
     <div>place</div><div>:</div><div>{item.place}</div>
   </div>
-  
      <br /><br /><br />
-
   <hr />
     <br /><br /><br />
   </>)}
@@ -47,7 +54,7 @@ export const Payment = ({detail}) => {
 
   <div class="buttons">
     <button>Print</button>
-    <button>Sent</button>
+    <button onClick={sent}>Sent</button>
   </div>
 
 

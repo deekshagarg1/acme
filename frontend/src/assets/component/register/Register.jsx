@@ -31,7 +31,7 @@ console.log(gen)
 </div>
 <div className="name">
 <h3>Date</h3>
-  <input type="date" onChange={(e)=>setdate(e.target.value)} />
+  <input type="datetime-local" onChange={(e)=>setdate(e.target.value)} />
 </div>
 </div>
 

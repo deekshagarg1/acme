@@ -1,7 +1,7 @@
 import React from 'react'
 import './shipment.css'
 import { Footer } from '../footer/Footer'
-export const Shipment = () => {
+export const Shipment = ({detail}) => {
   return (
     <div className='ship-main'>
 
@@ -38,6 +38,7 @@ export const Shipment = () => {
       <tr><td>Shivani Kaushal</td><td>37</td><td>2343456789</td><td>12/11/2024 – 05:30 PM</td></tr>
       <tr><td>Sagar Agrawal</td><td>45</td><td>0123456789</td><td>02/04/2025 – 02:45 PM</td></tr>
       <tr><td>Ankita Dhakar</td><td>18</td><td>1256789344</td><td>02/02/2025 – 10:00 AM</td></tr>
+     {detail.map((item)=><>   <tr><td>{item.name}</td><td>{item.age}</td><td>{item.phone}</td><td>{item.date} </td></tr></>)}
     </tbody>
   </table>
 

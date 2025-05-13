@@ -50,6 +50,7 @@ console.log(result)
 const delete1= async(params)=>{
   let result = await fetch (`http://localhost:4100/delete1/${params}` , {method:"delete"})
   getproducts(result)
+    alert("Appointment deleted")
 }
 
 // SEARCH API from backend
@@ -102,7 +103,7 @@ useEffect(()=>{
           {/* -------------- */}
           <Route path="/currentw" element={<Current_weight />} />
           <Route path="/weightloss" element={<Weightloss />} />
-          <Route path="/shipment" element={<Shipment />} />
+          <Route path="/shipment" element={<Shipment detail={info}/>} />
           <Route path="/bmi" element={<Bmi />} />
           <Route path="/dashboard" element={<Dashboard />} />
 
@@ -114,6 +115,9 @@ useEffect(()=>{
 
         </Routes>
         {/* <Footer/> */}
+
+
+
       </BrowserRouter>
     </>
   );

@@ -9,7 +9,13 @@ const auth =localStorage.getItem("token");
 
 
   return (
-    <div className='patient-main' style={{width: auth ? "" : "100%"  , height: auth? "650px" : ""}} >
+    <div className='patient-main' style={{width: auth ? "" : "100%"  , height: auth? "" : ""}} >
+
+      <div className="animation">
+        
+<center><h1>Welcome to ACME Patient !!</h1></center>
+
+         </div>
 
  <div class="header">
     <button class="filter-btn">Filter ▼ </button>
