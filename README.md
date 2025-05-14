@@ -6,7 +6,7 @@ This project is releated to the ACME Patient
  git clone https://github.com/deekshagarg1/acme.git
  cd filename.text
  npm install
- npm i recharts react-router-dom
+ npm i recharts react-router-dom react-slick slick-carousel
  npm run dev
 
 
