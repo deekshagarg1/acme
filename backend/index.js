@@ -49,7 +49,9 @@ app.post("/Register" , async(req, resp)=>{
           expiresIn: '1h'
         });
       
-        res.json({ token });
+        res.json({ token, 
+          
+          id: user._id, username: user.username  });
       });
       
    

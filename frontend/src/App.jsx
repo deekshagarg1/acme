@@ -18,6 +18,7 @@ import { Login } from "./assets/component/login/Login";
 import Private from "./assets/component/Private";
 import { Dashboard } from "./assets/component/dashboard/Dashboard";
 import { Footer } from "./assets/component/footer/Footer";
+import { Home } from "./assets/component/home_patientlist/Home";
 
 function App() {
   const [info , setinfo]=useState([])
@@ -108,8 +109,8 @@ useEffect(()=>{
           <Route path="/dashboard" element={<Dashboard />} />
 
 </Route>
-          
-         <Route path="/" element={<Patient  detail={info} delete1={delete1} searchpatient={searchpatient} />} />
+          <Route path="/" element={<Home/>}/>
+         <Route path="/patient" element={<Patient  detail={info} delete1={delete1} searchpatient={searchpatient} />} />
                {/* <Route path="/" element={<Patient  detail={info} delete1={delete1} setinfo={setinfo}/>} /> */}
           <Route path="/login" element={<Login />} />
 

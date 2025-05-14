@@ -30,10 +30,12 @@ try {
     });
 
     const data = await response.json();
+    console.log(`this is login ${data.username}`)
     if (!response.ok) throw new Error (data.message);
 
     if(login){
 setToken(data.token);
+
 localStorage.setItem("token", data.token);
 setmsg('Login Succesful !')
 navigate('/')

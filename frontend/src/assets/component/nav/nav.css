@@ -17,6 +17,10 @@
   /* background-color: rgb(90, 188, 227); */
 }
 
+.h2{
+  color: black;
+  border: 1px solid red;
+}
 
 
 .acme{
@@ -65,7 +69,7 @@ font-size: 1.2rem;
 
 .nav-left{
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   /* margin-top: 70px; */
 position: fixed;
@@ -93,10 +97,10 @@ position: fixed;
   /* border: 1px solid red; */
    background-color:#B6CCFE; 
    float: left;
-   height: 630px;
+   /* height: 630px; */
     display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -109,7 +113,7 @@ position: fixed;
 
 .content2{
   width: 85%;
-  height: 170px;
+  /* height: 170px; */
     display: flex;
     font-size: 1.1rem;
     
@@ -122,7 +126,7 @@ position: fixed;
 
  .content12{
   width: 85%;
-  height: 150px;
+  /* height: 150px; */
     display: flex;
     font-size: 1.1rem;
     
@@ -136,7 +140,7 @@ position: fixed;
 
  .content{
   width: 85%;
-  height: 300px;
+  /* height: 300px; */
     display: flex;
     font-size: 1.1rem;
     
@@ -144,12 +148,14 @@ position: fixed;
     justify-content: space-evenly;
     /* border: 1px solid red; */
     flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
   
   }
 
  .content1{
   width: 85%;
-  height: 250px;
+  /* height: 250px; */
     display: flex;
     font-size: 1.1rem;
     
@@ -167,5 +173,37 @@ position: fixed;
       width: 100%;
   height: 50px;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
+.bi-bi-arrow-down-short{
+  margin-top: 5px;
+}
+
+  /* ------------------- */
+  .content12,
+.content1 {
+  padding-left: 10px;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.opd {
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.opd:hover {
+  color: #3498db;
+}

@@ -51,6 +51,80 @@ animation:  a1 15s ease-in infinite ;
 }
 
 
+.center-home{
+    font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      /* padding: 40px; */
+      /* text-align: center; */
+      width: 95%;
+      margin-bottom: 50px;
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+    .header1 {
+      margin-top: 20px;
+      background: white;
+      padding: 15px 30px;
+      display: inline-block;
+      border-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      /* margin-bottom: 20px; */
+      border-bottom: 2px solid #00c4cc;
+    }
+
+    .container1{
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* .container {
+      width: 300vh;
+     width: 100%;
+      padding: 20px;
+       border: 1px solid red; 
+      display: grid;
+   
+      flex-wrap: wrap;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      justify-items: center;
+      margin-bottom: 50px;
+    } */
+
+    .module {
+      background-color: #fff;
+      padding: 20px;
+      width: 85%;
+      margin: 20px;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+      border-bottom: 4px solid #00c4cc;
+    }
+
+    .module h3 {
+      color: #00aaf0;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .module p {
+      color: #333;
+      font-size: 15px;
+    }
+    .icon {
+      font-size: 30px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
 
 
     .header {
@@ -137,4 +211,107 @@ animation:  a1 15s ease-in infinite ;
 
     tr:hover {
       background-color: #a9c2ff;
+    }
+
+    /* -------------------home----------- */
+
+    .home-slider{
+      width: 95%;
+      padding: 10px 10px;
+      /* border: 1px solid red; */
+      margin-top: 10px;
+      margin-bottom: 50px;
+
+    }
+
+    .sl-main{
+      width: 33%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+         border-radius: 15px;
+         /* border: 1px solid rgb(183, 183, 183); */
+      /* box-shadow:1px 1px 8px 2px gray ; */
+    }
+
+    .sl1{
+        width: 90%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 500;
+      border: 1px solid rgb(199, 198, 198);
+      flex-direction: column;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      /* border: 1px solid blue; */
+    }
+
+       .sl2 {
+        width: 90%;
+      height: 250px;
+      display: flex;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border: 1px solid rgb(188, 187, 187);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* border: 1px solid blue; */
+      background-image: url(register1.png);
+      background-size: 350px 250px;
+    }
+
+    .sl1 a{
+color: black;
+text-decoration: none;
+    }
+
+      .sl2a{
+        width: 90%;
+      height: 250px;
+      display: flex;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border: 1px solid rgb(188, 187, 187);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* border: 1px solid blue; */
+      background-image: url(patientlist1.png);
+      background-size: 350px 250px;
+    }
+
+      .sl2b{
+        width: 90%;
+      height: 250px;
+      display: flex;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border: 1px solid rgb(188, 187, 187);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* border: 1px solid blue; */
+      background-image: url(weightloss1.png);
+      background-size: 350px 250px;
+    }
+
+      .sl2c{
+        width: 90%;
+      height: 250px;
+      display: flex;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border: 1px solid rgb(188, 187, 187);
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* border: 1px solid blue; */
+      background-image: url(bmi.png);
+      background-size: 350px 250px;
     }
